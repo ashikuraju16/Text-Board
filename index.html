@@ -12,7 +12,7 @@
         <h2 class="text-center text-5xl py-8">My Text Editor</h2>
         <div class="w-3/4 bg-blue-100 mx-auto border-2 border-black rounded-md ">
           <div class="flex font-extrabold gap-x-6 py-6 pl-4">
-              <button>B</button>
+              <button id="b" onclick="Bold()">B</button>
               <button class="italic">I</button>
             <button class="underline">U</button>
 
@@ -85,9 +85,11 @@
           </div>
         
         <div class="border-b-2 border-black mx-3"></div>
-          <div class="p-5"><textarea class="w-full bg-white p-2 text-lg" name="" id="" cols="35" rows="15"></textarea></div>
+          <div class="p-5"><textarea  class="w-full bg-white p-2 text-lg" name="" id="content" cols="35" rows="15"></textarea></div>
         </div>
       </div>
     </section>
+
+    <script src="js/text.js"></script>
   </body>
 </html>
