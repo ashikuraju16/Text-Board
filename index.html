@@ -10,7 +10,7 @@
     <section>
       <div class="w-3/5 mx-auto bg-blue-200 pb-20 mt-8 rounded-lg ">
         <h2 class="text-center text-5xl py-8">My Text Editor</h2>
-        <div class="w-3/4 bg-blue-100 mx-auto border-2 border-black rounded-md ">
+        <div class="w-3/4 bg-blue-100 mx-auto border-2 border-black text-lg ">
           <div class="flex font-extrabold gap-x-6 py-6 pl-4">
               <button  onclick="Bold()">B</button>
               <button onclick="italicText()" class="italic">I</button>
@@ -75,9 +75,15 @@
               </svg>
             </div>
             <div class="flex gap-x-8 ">
-                <button>17</button>
-                <button>aA</button>
-                <button class="px-8 py-2 bg-black"></button>
+             <div >
+               <button onclick="changeFontSizeDown()">1</button>
+              <button onclick="changeFontSizeUp()" >7</button>
+            </div>
+               <div> 
+                <button onclick="toLower()" >a</button>
+                <button onclick="toUpper()">A</button>
+              </div>
+                <button class="px-8 py-2 bg-black "></button>
                 
             </div>
           
